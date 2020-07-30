@@ -58,13 +58,15 @@ end
 def add_s(array)
   i = 0 
   new_array = []
+  old_array = []
   while i < array.length do 
     if i != 1 
-      i = i + "s"
-      new_array.push(i)
+      old_array = array[i] + "s"
+      new_array.push(old_array)
     end
   i += 1 
 end
+new_array
 end
 
     
