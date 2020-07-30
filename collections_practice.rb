@@ -66,8 +66,10 @@ def add_s(array)
   
   else
     new_array.push(array[i])
-  i += 1 
+
 end
+i += 1 
+
 end
 new_array
 end
