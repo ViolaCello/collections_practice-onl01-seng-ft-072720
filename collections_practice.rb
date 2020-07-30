@@ -57,8 +57,15 @@ end
 
 def add_s(array)
   i = 0 
+  new_array = []
   while i < array.length do 
     if i != 1 
       i.concat("s")
+      new_array.push(i)
+    end
+  i += 1 
+end
+end
+
     
     
