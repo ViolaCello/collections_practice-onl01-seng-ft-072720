@@ -45,3 +45,12 @@ def find_a(array)
   new_array
 end
 
+def sum_array(array)
+  i = 0 
+  a = 0 
+  while i < array.length do 
+    a = a + array[i]
+    i += 1 
+  end
+end
+    
