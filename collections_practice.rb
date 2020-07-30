@@ -63,7 +63,7 @@ def add_s(array)
     if i != 1 
       old_array = array[i] + "s"
       new_array.push(old_array)
-    end
+  
   else
     new_array.push(array[i])
   i += 1 
