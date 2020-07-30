@@ -60,7 +60,7 @@ def add_s(array)
   new_array = []
   while i < array.length do 
     if i != 1 
-      i.concat("s")
+      i = i + "s"
       new_array.push(i)
     end
   i += 1 
